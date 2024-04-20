@@ -1,0 +1,148 @@
+:root {
+  --box-shadow: -5px 5px 10px 5px rgba(128, 128, 128, 0.479);
+}
+body {
+  margin: 0;
+}
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+.container {
+  padding: 12px;
+}
+.header-container {
+  background-color: #f4f1de;
+}
+.nav-container {
+  background-color: #eab69f;
+}
+.nav-items {
+  display: flex;
+  gap: 12px;
+}
+.nav-items li {
+  list-style: none;
+}
+.nav-items li:hover {
+  color: red;
+  cursor: pointer;
+}
+.logo {
+  border: 2px dashed black;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* HEro Section */
+.hero-section {
+  background: url(./image/hero.jpg) center no-repeat;
+  background-size: cover;
+  min-height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-content {
+  background-color: rgba(0, 0, 0, 0.788);
+  color: white;
+  padding: 32px;
+  border-radius: 12px;
+  text-align: center;
+}
+/*Latest Post*/
+.latest-post-container {
+  background-color: #d7afaf;
+  margin-bottom: 0;
+}
+.card-container {
+  display: flex;
+  gap: 12px;
+}
+.blog-container {
+  flex: 2;
+}
+.filter-container {
+  flex: 1;
+}
+.card {
+  border-radius: 12px;
+  box-shadow: var(--box-shadow);
+  padding: 12px;
+  margin-bottom: 24px;
+}
+.blog-card {
+  display: flex;
+  gap: 12px;
+  padding: 12px;
+  align-items: center;
+}
+.card-image {
+  height: 150px;
+  width: 150px;
+  border-radius: 12px;
+}
+.read-more-btn {
+  box-shadow: var(--box-shadow);
+  border-radius: 4px;
+  background-color: aqua;
+  cursor: pointer;
+  float: right;
+  height: 32px;
+  border: none;
+}
+
+.read-by-country {
+  background-color: #96c5b0;
+}
+.read-by-date {
+  background-color: #553555;
+}
+.recommendation-section {
+  background-color: #f2cc8f;
+  margin-top: 0;
+}
+.recommendation-container {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.recommendation-card {
+  height: 350px;
+  background-color: white;
+  padding: 0px;
+}
+.recommendation-image {
+  width: 100%;
+  height: 200px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+.recommendation-card-content {
+  padding: 12px;
+  text-align: center;
+}
+.subscription-container {
+  text-align: center;
+  background-color: #81b29a;
+}
+.subscription-form input {
+  height: 24px;
+}
+.subscription-form button {
+  height: 32px;
+}
+/*Footer*/
+footer {
+  padding: 24px;
+  background-color: #3d405b;
+
+  text-align: Center;
+  color: white;
+}
